@@ -1,0 +1,38 @@
+POST https://jsonplaceholder.typicode.com/posts
+Content-Type: "application/json"
+
+{
+    "title": "Hello...",
+    "body": "Helloooo....",
+    "userId": 1
+}
+
+###
+
+PUT https://jsonplaceholder.typicode.com/posts/2
+Content-Type: "application/json"
+
+{
+    "id": 2,
+    "title": "Hello...",
+    "body": "Helloooo....",
+    "userId": 2
+}
+
+###
+
+PATCH https://jsonplaceholder.typicode.com/posts/1
+Content-Type: "application/json"
+
+{
+    "title": "Hello...",
+}
+
+
+
+###
+
+GET https://jsonplaceholder.typicode.com/posts/101
+
+###
+DELETE https://jsonplaceholder.typicode.com/posts/100
