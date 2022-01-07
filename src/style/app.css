@@ -1,0 +1,13 @@
+
+.body_card {
+    margin-top: 100px;
+    position: relative;
+}
+
+.addpost {
+    top: 200px;
+    position: fixed;
+    left: 20%;
+    z-index: 2;
+    width: 100%;
+}
